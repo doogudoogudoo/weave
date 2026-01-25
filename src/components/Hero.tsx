@@ -1,5 +1,7 @@
 'use client';
+import LogoBig from './Logo_big';
 import { WeavePattern } from './WeavePattern';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -12,9 +14,17 @@ export function Hero() {
       {/* 콘텐츠 */}
       <div className='relative z-10 text-center px-6 max-w-4xl mx-auto'>
         <div className='mb-8 flex justify-center'>
-          <div className='w-20 h-20 bg-gradient-to-br from-[#8B7355] via-[#D4A574] to-[#6B8E23] rounded-2xl flex items-center justify-center shadow-xl'>
+          {/* <div className='w-20 h-20 bg-gradient-to-br from-[#8B7355] via-[#D4A574] to-[#6B8E23] rounded-2xl flex items-center justify-center shadow-xl'>
             <span className='text-white text-4xl'>⋈</span>
-          </div>
+
+            <Image
+              src={'/weave-icon-white.png'}
+              alt='Weave Icon'
+              width={100000}
+              height={100000}
+            />
+          </div> */}
+          <LogoBig />
         </div>
 
         <h1 className='text-5xl md:text-7xl mb-6 text-[#5C4033]'>

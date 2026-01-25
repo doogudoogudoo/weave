@@ -39,12 +39,12 @@ export function Contact() {
                       href='mailto:hello@weave.com'
                       className='text-lg text-[#5C4033] hover:text-[#8B7355]'
                     >
-                      hello@weave.com
+                      weave.people@gmail.com
                     </a>
                   </div>
                 </div>
 
-                <div className='flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-[#D4A574]/20'>
+                {/* <div className='flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-[#D4A574]/20'>
                   <div className='w-12 h-12 bg-[#D4A574]/10 rounded-lg flex items-center justify-center flex-shrink-0'>
                     <Phone className='text-[#D4A574]' size={24} />
                   </div>
@@ -57,7 +57,7 @@ export function Contact() {
                       +82-2-1234-5678
                     </a>
                   </div>
-                </div>
+                </div> */}
 
                 <div className='flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-[#6B8E23]/20'>
                   <div className='w-12 h-12 bg-[#6B8E23]/10 rounded-lg flex items-center justify-center flex-shrink-0'>
@@ -66,9 +66,7 @@ export function Contact() {
                   <div>
                     <p className='text-sm text-[#6B5D52] mb-1'>주소</p>
                     <p className='text-lg text-[#5C4033]'>
-                      서울시 강남구 테헤란로 123
-                      <br />
-                      Weave 빌딩 5층
+                      서울 영등포구 국제금융로2길 17 시티플라자
                     </p>
                   </div>
                 </div>
@@ -84,7 +82,7 @@ export function Contact() {
 
           {/* 문의 폼 */}
           <div className='bg-white p-8 rounded-2xl shadow-xl'>
-            <h3 className='text-2xl text-[#5C4033] mb-6'>메시지 보내기</h3>
+            <h3 className='text-2xl text-[#5C4033] mb-6'>문의 보내기</h3>
 
             <form className='space-y-6'>
               <div>
@@ -107,13 +105,13 @@ export function Contact() {
                   htmlFor='email'
                   className='block text-sm text-[#5C4033] mb-2'
                 >
-                  이메일 *
+                  전화번호 *
                 </label>
                 <input
                   type='email'
                   id='email'
                   className='w-full px-4 py-3 border border-[#8B7355]/30 rounded-lg focus:outline-none focus:border-[#8B7355] focus:ring-2 focus:ring-[#8B7355]/20 transition-colors'
-                  placeholder='hello@example.com'
+                  placeholder='010-0000-0000'
                 />
               </div>
 
@@ -151,7 +149,7 @@ export function Contact() {
                 type='submit'
                 className='w-full px-8 py-4 bg-[#8B7355] text-white rounded-lg hover:bg-[#6B5D52] transition-colors shadow-lg'
               >
-                메시지 보내기
+                문의 보내기
               </button>
             </form>
           </div>

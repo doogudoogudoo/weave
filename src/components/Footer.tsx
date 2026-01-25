@@ -1,4 +1,7 @@
 'use client';
+
+import Link from 'next/link';
+import Logo from './Logo';
 export function Footer() {
   return (
     <footer className='bg-[#5C4033] text-white py-12 px-6'>
@@ -6,9 +9,10 @@ export function Footer() {
         <div className='grid md:grid-cols-4 gap-8 mb-8'>
           <div>
             <div className='flex items-center gap-3 mb-4'>
-              <div className='w-10 h-10 bg-gradient-to-br from-[#8B7355] to-[#6B8E23] rounded-lg flex items-center justify-center'>
+              {/* <div className='w-10 h-10 bg-gradient-to-br from-[#8B7355] to-[#6B8E23] rounded-lg flex items-center justify-center'>
                 <span className='text-white text-xl'>⋈</span>
-              </div>
+              </div> */}
+              <Logo />
               <h3 className='text-2xl'>Weave</h3>
             </div>
             <p className='text-[#D4A574] leading-relaxed'>
@@ -26,17 +30,17 @@ export function Footer() {
                   href='#about'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
-                  회사 소개
+                  소개
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href='#philosophy'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   철학
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href='#projects'
@@ -52,29 +56,29 @@ export function Footer() {
             <h4 className='text-lg mb-4'>지원</h4>
             <ul className='space-y-2'>
               <li>
-                <a
-                  href='#contact'
+                <Link
+                  href='/#contact'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   문의하기
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href='#'
+                <Link
+                  href='/faq'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   FAQ
-                </a>
+                </Link>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href='#'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   지원센터
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -82,16 +86,16 @@ export function Footer() {
             <h4 className='text-lg mb-4'>법적 고지</h4>
             <ul className='space-y-2'>
               <li>
-                <a
-                  href='#'
+                <Link
+                  href='/terms_of_use'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   이용약관
-                </a>
+                </Link>
               </li>
               <li>
                 <a
-                  href='#'
+                  href='/privacy_policy'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   개인정보처리방침
@@ -99,7 +103,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='/cookie_policy'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   쿠키 정책
@@ -113,7 +117,7 @@ export function Footer() {
           <p className='text-[#D4A574] text-sm'>
             © 2024 Weave. All rights reserved.
           </p>
-          <div className='flex gap-6'>
+          {/* <div className='flex gap-6'>
             <a
               href='#'
               className='text-[#D4A574] hover:text-white transition-colors'
@@ -132,7 +136,7 @@ export function Footer() {
             >
               Twitter
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

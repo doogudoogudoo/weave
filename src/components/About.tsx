@@ -7,9 +7,7 @@ export function About() {
     <section id='about' className='py-24 px-6 bg-white'>
       <div className='max-w-7xl mx-auto'>
         <div className='text-center mb-16'>
-          <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4'>
-            회사 소개
-          </h2>
+          <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4'>소개</h2>
           <div className='w-24 h-1 bg-gradient-to-r from-[#8B7355] via-[#D4A574] to-[#6B8E23] mx-auto rounded-full'></div>
         </div>
 
@@ -27,17 +25,22 @@ export function About() {
 
           <div className='space-y-6'>
             <p className='text-lg text-[#6B5D52] leading-relaxed'>
-              Weave는 2024년 설립된 연결 플랫폼 전문 기업입니다. 우리는 사람과
-              사람, 조직과 조직을 연결하여 더 나은 협력과 소통의 문화를
-              만들어갑니다.
+              WEAVE는 청춘의 감정을 엮어내는 미디어 콘텐츠 스튜디오입니다.
             </p>
             <p className='text-lg text-[#6B5D52] leading-relaxed'>
-              마치 실을 엮어 하나의 튼튼한 직물을 만들듯이, 우리는 각자의 개성과
-              강점을 존중하면서도 조화롭게 연결되는 네트워크를 구축합니다.
+              20–30대가 일상 속에서 느끼는 작은 고민과 설렘, 흔들리는 순간들을
+              놓치지 않고 진솔한 이야기로 담아내고 있습니다.
             </p>
             <p className='text-lg text-[#6B5D52] leading-relaxed'>
-              따뜻한 색감처럼 부드럽고, 직조된 천처럼 견고한 연결을 통해 모두가
-              함께 성장하는 생태계를 만들어갑니다.
+              우리의 콘텐츠가 일방적으로 전달되는 메시지가 아니라, 누군가에게
+              말을 거는 따뜻한 창구가 되길 바랍니다.
+            </p>
+            <p className='text-lg text-[#6B5D52] leading-relaxed'>
+              소비자의 마음에 닿고 서로 소통하는 미디어를 만들어가고자 합니다.
+            </p>
+            <p className='text-lg text-[#6B5D52] leading-relaxed'>
+              사람과 사람 사이를 공감으로 연결할 수 있도록, WEAVE는 오늘도
+              이야기를 엮어갑니다.
             </p>
           </div>
         </div>

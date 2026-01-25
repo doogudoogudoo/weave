@@ -1,6 +1,9 @@
 'use client';
 import { Menu } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
+import Logo from './Logo';
+import Link from 'next/link';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,26 +17,36 @@ export function Header() {
   return (
     <header className='fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-[#8B7355]/20'>
       <div className='max-w-7xl mx-auto px-6 py-4 flex items-center justify-between'>
-        <div className='flex items-center gap-3'>
-          <div className='w-10 h-10 bg-gradient-to-br from-[#8B7355] to-[#6B8E23] rounded-lg flex items-center justify-center'>
+        <Link href='/'>
+          <div className='flex items-center gap-3 hover:cursor-pointer'>
+            {/* <div className='w-10 h-10 bg-gradient-to-br from-[#8B7355] to-[#6B8E23] rounded-lg flex items-center justify-center'>
             <span className='text-white text-xl'>⋈</span>
+
+            <Image
+              src={'/weave-icon-white.png'}
+              alt='Weave Icon'
+              width={10000}
+              height={10000}
+            />
+          </div> */}
+            <Logo />
+            <h1 className='text-2xl text-[#8B7355]'>Weave</h1>
           </div>
-          <h1 className='text-2xl text-[#8B7355]'>Weave</h1>
-        </div>
+        </Link>
 
         <nav className='hidden md:flex gap-8'>
           <button
             onClick={() => scrollToSection('about')}
             className='text-[#5C4033] hover:text-[#8B7355] transition-colors'
           >
-            회사 소개
+            소개
           </button>
-          <button
+          {/* <button
             onClick={() => scrollToSection('philosophy')}
             className='text-[#5C4033] hover:text-[#8B7355] transition-colors'
           >
             철학
-          </button>
+          </button> */}
           <button
             onClick={() => scrollToSection('projects')}
             className='text-[#5C4033] hover:text-[#8B7355] transition-colors'
