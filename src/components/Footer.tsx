@@ -63,14 +63,14 @@ export function Footer() {
                   문의하기
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href='/faq'
                   className='text-[#D4A574] hover:text-white transition-colors'
                 >
                   FAQ
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <a
                   href='#'

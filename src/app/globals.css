@@ -204,3 +204,23 @@
 html {
   font-size: var(--font-size);
 }
+
+@font-face {
+  font-family: 'p';
+  font-weight: normal;
+  src: url('../fonts/p.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'title';
+  font-weight: normal;
+  src: url('../fonts/title.ttf') format('truetype');
+}
+
+* {
+  font-family: 'title';
+}
+
+/* * {
+  font-family: 'p';
+} */

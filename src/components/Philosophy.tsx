@@ -45,6 +45,19 @@ export function Philosophy() {
         <WeavePattern />
       </div>
 
+      <div className='bg-white p-12 rounded-2xl shadow-xl max-w-4xl mx-auto mb-20'>
+        <blockquote className='text-center'>
+          <p className='text-2xl md:text-3xl text-[#5C4033] mb-6 leading-relaxed'>
+            한 올의 실은 약하지만,
+            <br />
+            함께 엮이면 그 무엇보다 강해집니다
+          </p>
+          <footer className='text-lg text-[#8B7355]'>
+            — Weave의 핵심 가치
+          </footer>
+        </blockquote>
+      </div>
+
       <div className='max-w-7xl mx-auto relative z-10'>
         {/* <div className='text-center mb-16'>
           <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4'>
@@ -89,19 +102,6 @@ export function Philosophy() {
               />
             </div>
           </div>
-        </div>
-
-        <div className='bg-white p-12 rounded-2xl shadow-xl max-w-4xl mx-auto'>
-          <blockquote className='text-center'>
-            <p className='text-2xl md:text-3xl text-[#5C4033] mb-6 leading-relaxed'>
-              한 올의 실은 약하지만,
-              <br />
-              함께 엮이면 그 무엇보다 강해집니다
-            </p>
-            <footer className='text-lg text-[#8B7355]'>
-              — Weave의 핵심 가치
-            </footer>
-          </blockquote>
         </div>
       </div>
     </section>
