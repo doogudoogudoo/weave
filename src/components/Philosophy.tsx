@@ -1,6 +1,7 @@
 'use client';
 import { WeavePattern } from './WeavePattern';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import Image from 'next/image';
 
 export function Philosophy() {
   const values = [
@@ -95,10 +96,18 @@ export function Philosophy() {
           <div className='relative order-1 md:order-2'>
             <div className='absolute -inset-4 bg-gradient-to-br from-[#8B7355]/20 to-[#6B8E23]/20 rounded-2xl transform -rotate-3'></div>
             <div className='relative rounded-2xl overflow-hidden shadow-xl'>
-              <ImageWithFallback
+              {/* <ImageWithFallback
                 src='https://images.unsplash.com/photo-1740065592719-052d3e5ec6fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYW5kcyUyMHRvZ2V0aGVyJTIwY29tbXVuaXR5fGVufDF8fHx8MTc2OTE1MDcxMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
                 alt='Community Together'
                 className='w-full h-[500px] object-cover'
+              /> */}
+
+              <Image
+                src='/post1.jpeg'
+                alt='weave company'
+                width={5000}
+                height={400}
+                className='object-cover'
               />
             </div>
           </div>

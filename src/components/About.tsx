@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Users, Heart, Sparkles } from 'lucide-react';
 
@@ -15,10 +16,17 @@ export function About() {
           <div className='relative'>
             <div className='absolute inset-0 bg-gradient-to-br from-[#8B7355]/20 to-[#6B8E23]/20 rounded-2xl transform rotate-3'></div>
             <div className='relative rounded-2xl overflow-hidden shadow-xl'>
-              <ImageWithFallback
+              {/* <ImageWithFallback
                 src='https://images.unsplash.com/photo-1739298061740-5ed03045b280?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjkxMDM4OTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
                 alt='Weave Team Collaboration'
                 className='w-full h-[400px] object-cover'
+              /> */}
+              <Image
+                src='/company.jpg'
+                alt='weave company'
+                width={5000}
+                height={400}
+                className='object-cover'
               />
             </div>
           </div>
