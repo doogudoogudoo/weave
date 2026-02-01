@@ -27,13 +27,14 @@ export function Hero() {
           <LogoBig />
         </div>
 
-        <h1 className='text-5xl md:text-7xl mb-6 text-[#5C4033]'>
+        <h1 className='text-5xl md:text-7xl mb-6 text-[#5C4033] font-title'>
           사람과 사람을
           <br />
-          <span className='text-[#8B7355]'>연결</span>하는 힘
+          <span className='text-[#8B7355] font-title'>연결</span>
+          하는 힘
         </h1>
 
-        <p className='text-xl md:text-2xl text-[#6B5D52] mb-12 leading-relaxed'>
+        <p className='text-xl md:text-2xl text-[#6B5D52] mb-12 leading-relaxed font-p font-bold'>
           직조하듯 촘촘하게, 따뜻하게
           <br />
           우리는 연결의 가치를 만들어갑니다
@@ -46,7 +47,7 @@ export function Hero() {
                 .getElementById('about')
                 ?.scrollIntoView({ behavior: 'smooth' })
             }
-            className='px-8 py-4 bg-[#8B7355] text-white rounded-lg hover:bg-[#6B5D52] transition-colors shadow-lg'
+            className='px-8 py-4 bg-[#8B7355] text-white rounded-lg hover:bg-[#6B5D52] transition-colors shadow-lg font-pretendard-bold'
           >
             더 알아보기
           </button>
@@ -56,7 +57,7 @@ export function Hero() {
                 .getElementById('contact')
                 ?.scrollIntoView({ behavior: 'smooth' })
             }
-            className='px-8 py-4 border-2 border-[#8B7355] text-[#8B7355] rounded-lg hover:bg-[#8B7355] hover:text-white transition-colors'
+            className='px-8 py-4 border-2 border-[#8B7355] text-[#8B7355] rounded-lg hover:bg-[#8B7355] hover:text-white transition-colors font-pretendard-bold '
           >
             문의하기
           </button>

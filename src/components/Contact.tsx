@@ -15,9 +15,11 @@ export function Contact() {
 
       <div className='max-w-7xl mx-auto relative z-10'>
         <div className='text-center mb-16'>
-          <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4'>문의하기</h2>
+          <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4 font-title'>
+            문의하기
+          </h2>
           <div className='w-24 h-1 bg-gradient-to-r from-[#8B7355] via-[#D4A574] to-[#6B8E23] mx-auto rounded-full'></div>
-          <p className='mt-6 text-xl text-[#6B5D52] max-w-3xl mx-auto'>
+          <p className='mt-6 text-xl text-[#6B5D52] max-w-3xl mx-auto font-p font-bold'>
             새로운 연결의 시작, 함께 이야기 나눠요
           </p>
         </div>
@@ -26,7 +28,9 @@ export function Contact() {
           {/* 연락처 정보 */}
           <div className='space-y-8'>
             <div>
-              <h3 className='text-2xl text-[#5C4033] mb-6'>연락처 정보</h3>
+              <h3 className='text-2xl text-[#5C4033] mb-6 font-pretendard'>
+                연락처 정보
+              </h3>
 
               <div className='space-y-6'>
                 <div className='flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-[#8B7355]/20'>
@@ -74,7 +78,7 @@ export function Contact() {
             </div>
 
             <div className='bg-gradient-to-br from-[#8B7355] to-[#6B8E23] p-8 rounded-2xl text-white'>
-              <h4 className='text-xl mb-4'>영업 시간</h4>
+              <h4 className='text-xl mb-4 font-pretendard-bold'>영업 시간</h4>
               <p className='mb-2'>월요일 - 금요일: 09:00 - 18:00</p>
               <p className='opacity-80'>주말 및 공휴일: 휴무</p>
             </div>
@@ -147,7 +151,7 @@ export function Contact() {
 
               <button
                 type='submit'
-                className='w-full px-8 py-4 bg-[#8B7355] text-white rounded-lg hover:bg-[#6B5D52] transition-colors shadow-lg'
+                className='w-full px-8 py-4 bg-[#8B7355] text-white rounded-lg hover:bg-[#6B5D52] transition-colors shadow-lg font-pretendard-bold'
               >
                 문의 보내기
               </button>

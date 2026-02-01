@@ -13,7 +13,7 @@ export function Footer() {
                 <span className='text-white text-xl'>⋈</span>
               </div> */}
               <Logo />
-              <h3 className='text-2xl'>Weave</h3>
+              <h3 className='text-2xl font-title'>Weave</h3>
             </div>
             <p className='text-[#D4A574] leading-relaxed'>
               사람과 사람을 연결하는
@@ -23,7 +23,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className='text-lg mb-4'>회사</h4>
+            <h4 className='text-lg mb-4 font-pretendard-bold'>회사</h4>
             <ul className='space-y-2'>
               <li>
                 <a
@@ -53,7 +53,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className='text-lg mb-4'>지원</h4>
+            <h4 className='text-lg mb-4 font-pretendard-bold'>지원</h4>
             <ul className='space-y-2'>
               <li>
                 <Link
@@ -83,7 +83,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className='text-lg mb-4'>법적 고지</h4>
+            <h4 className='text-lg mb-4 font-pretendard-bold'>법적 고지</h4>
             <ul className='space-y-2'>
               <li>
                 <Link
