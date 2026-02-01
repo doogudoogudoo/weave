@@ -39,7 +39,7 @@ export function Projects() {
     <section id='projects' className='py-24 px-6 bg-white'>
       <div className='max-w-7xl mx-auto'>
         <div className='text-center mb-16'>
-          <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4 font-title'>
+          <h2 className='text-4xl md:text-5xl text-[#5C4033] mb-4 font-title font-bold'>
             프로젝트
           </h2>
           <div className='w-24 h-1 bg-gradient-to-r from-[#8B7355] via-[#D4A574] to-[#6B8E23] mx-auto rounded-full'></div>
