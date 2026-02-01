@@ -106,14 +106,14 @@ export function Contact() {
 
               <div>
                 <label
-                  htmlFor='email'
+                  htmlFor='phone'
                   className='block text-sm text-[#5C4033] mb-2'
                 >
                   전화번호 *
                 </label>
                 <input
-                  type='email'
-                  id='email'
+                  type='tel'
+                  id='emphoneail'
                   className='w-full px-4 py-3 border border-[#8B7355]/30 rounded-lg focus:outline-none focus:border-[#8B7355] focus:ring-2 focus:ring-[#8B7355]/20 transition-colors'
                   placeholder='010-0000-0000'
                 />
