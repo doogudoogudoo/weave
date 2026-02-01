@@ -30,7 +30,7 @@ export function Hero() {
         <h1 className='text-5xl md:text-7xl mb-6 text-[#5C4033] font-title'>
           사람과 사람을
           <br />
-          <span className='text-[#8B7355] font-title'>연결</span>
+          <span className='text-[#8B7355] font-title font-black'>연결</span>
           하는 힘
         </h1>
 
