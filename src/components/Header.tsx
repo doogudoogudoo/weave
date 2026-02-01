@@ -79,12 +79,12 @@ export function Header() {
             >
               회사 소개
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection('philosophy')}
               className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors'
             >
               철학
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection('projects')}
               className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors'
