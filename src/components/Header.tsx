@@ -75,9 +75,9 @@ export function Header() {
           <nav className='flex flex-col px-6 py-4 gap-4'>
             <button
               onClick={() => scrollToSection('about')}
-              className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors'
+              className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors font-pretendard-bold'
             >
-              회사 소개
+              소개
             </button>
             {/* <button
               onClick={() => scrollToSection('philosophy')}
@@ -87,13 +87,13 @@ export function Header() {
             </button> */}
             <button
               onClick={() => scrollToSection('projects')}
-              className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors'
+              className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors font-pretendard-bold'
             >
               프로젝트
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors'
+              className='text-left text-[#5C4033] hover:text-[#8B7355] transition-colors font-pretendard-bold'
             >
               문의하기
             </button>
