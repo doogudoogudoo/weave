@@ -131,7 +131,7 @@ export function Projects() {
         </div>
 
         {/* <div className='grid md:grid-cols-3 gap-8 overflow-scroll'> */}
-        <div className='flex flex-row justify-center bg-[#fafafa] p-5 rounded-2xl'>
+        <div className='flex flex-row justify-center bg-[#fafafa] p-3 rounded-xl'>
           <div className='flex flex-row  gap-8 overflow-x-scroll'>
             <div
               dangerouslySetInnerHTML={{
