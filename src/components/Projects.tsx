@@ -43,7 +43,7 @@ export function Projects() {
             프로젝트
           </h2>
           <div className='w-24 h-1 bg-gradient-to-r from-[#8B7355] via-[#D4A574] to-[#6B8E23] mx-auto rounded-full'></div>
-          <p className='mt-6 text-xl text-[#6B5D52] max-w-3xl mx-auto'>
+          <p className='mt-6 text-xl text-[#6B5D52] max-w-3xl mx-auto font-p'>
             연결의 가치를 실현하는 다양한 프로젝트를 진행하고 있습니다
           </p>
         </div>
